@@ -1,0 +1,71 @@
+/* CARD */
+.es-overlay {
+    background-color: transparent;
+    color: white;
+    display: flex;
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    gap: 4px;
+    justify-content: center;
+    line-height: normal;
+    white-space: nowrap;
+    z-index: 999;
+}
+
+/* VIEW-SPECIFIC */
+.es-view-grid,
+.es-view-text,
+.es-view-full {
+    bottom: 2px;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, 0);
+}
+
+.es-view-checklist {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+/* CHIPS */
+[class^="es-binderType-"] {
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+    border-radius: 4px;
+    padding: 4px 8px;
+}
+
+.es-binderType-binder {
+    background-color: rgb(0, 130, 0);
+}
+
+.es-binderType-deck {
+    background-color: rgb(0, 110, 180);
+}
+
+.es-binderType-list {
+    background-color: rgb(206, 113, 0);
+}
+
+.es-binderType-other {
+    background-color: rgb(144, 0, 0);
+}
+
+.es-binderType-unowned {
+    background-color: rgb(80, 80, 80);
+}
+
+.es-binderType-total {
+    background-color: rgb(0, 0, 0);
+}
+
+/* COUNTER */
+.es-counter {
+    bottom: 16px;
+    flex-direction: column;
+    position: fixed;
+    right: 16px;
+}
