@@ -1,8 +1,14 @@
-# React + Vite + CRXJS
+# Enhanced Scryfall
+
+Chrome extension that enhances the Scryfall experience with additional tools and features.
+
+---
+
+## React + Vite + CRXJS
 
 This template helps you quickly start developing Chrome extensions with React, TypeScript and Vite. It includes the CRXJS Vite plugin for seamless Chrome extension development.
 
-## Features
+### Features
 
 - React with TypeScript
 - TypeScript support
@@ -10,7 +16,7 @@ This template helps you quickly start developing Chrome extensions with React, T
 - CRXJS Vite plugin integration
 - Chrome extension manifest configuration
 
-## Quick Start
+### Quick Start
 
 1. Install dependencies:
 
@@ -32,19 +38,19 @@ npm run dev
 npm run build
 ```
 
-## Project Structure
+### Project Structure
 
 - `src/popup/` - Extension popup UI
 - `src/content/` - Content scripts
 - `manifest.config.ts` - Chrome extension manifest configuration
 
-## Documentation
+### Documentation
 
 - [React Documentation](https://reactjs.org/)
 - [Vite Documentation](https://vitejs.dev/)
 - [CRXJS Documentation](https://crxjs.dev/vite-plugin)
 
-## Chrome Extension Development Notes
+### Chrome Extension Development Notes
 
 - Use `manifest.config.ts` to configure your extension
 - The CRXJS plugin automatically handles manifest generation
